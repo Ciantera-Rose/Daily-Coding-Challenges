@@ -16,4 +16,5 @@ function reverseInt(n) {
   return parseInt(reversed) * Math.sign(n);
 }
 
-reverseInt(189); //?
+reverseInt(189); //? 981 | 1
+reverseInt(-189); //? -981 | -1

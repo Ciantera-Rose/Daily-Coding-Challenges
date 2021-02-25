@@ -28,7 +28,7 @@ function reverseString(str) {
 }
 reverseString('hello');
 
-//=====================================================================
+// =====================================================================
 // Solution 3 : Use Loop
 function reverseString(str) {
   let reversed = '';
@@ -40,8 +40,8 @@ function reverseString(str) {
 }
 reverseString('Hello');
 
-=====================================================================
-Solution 4 : Use Reduce
+// =====================================================================
+// Solution 4 : Use Reduce
 function reverse(str) {
   return str.split('').reduce((reversed, char) => char + reversed, '');
 }
